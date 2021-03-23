@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#8727B0"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".quiz">
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:background="#689F38"
+        android:gravity="center"
+        android:layout_gravity="center">
+    <TextView
+        android:id="@+id/header_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/header_msg"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:background="#689F38"
+        android:gravity="center"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/footer_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/footer_msg"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textSize="25sp"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_above="@+id/footer"
+        android:layout_below="@+id/header"
+        android:id="@+id/ll">
+    <ImageView
+        android:id="@+id/myimage"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:src="@drawable/a"
+        android:layout_height="190dp"/>
+    <TextView
+        android:id="@+id/answer_text_view"
+        android:text="@string/a"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/true_button"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#5BD91B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/true_text" />
+        <Button
+            android:id="@+id/false_button"
+            android:layout_width="wrap_content"
+            android:backgroundTint="#5BD91B"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:text="@string/false_text" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:id="@+id/l1">
+
+    <Button
+                android:id="@+id/next_button"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#DF1F1F"
+                android:text="Next"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginLeft="140dp"
+                android:textColor="#121211"
+                ></Button>
+
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#DF1F1F"
+        android:text="Submit"
+        android:visibility="invisible"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/next_button"
+        android:onClick="next"
+        android:textColor="#0A0B0B"
+        ></Button>
+    </RelativeLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">quizmanagementsystem</string>
+    <string name="correct"><b>CORRECTNESS IS</b> \n
+                           <b>%1$d</b> OUT OF 6</string>
+    <string name="true_text">true</string>
+    <string name="false_text">false</string>
+    <string name="correct_answer">That\'s correct</string>
+    <string name="wrong_answer">That\'s incorrect</string>
+    <string name="a">What was the first phone released that ran the Android OS:
+                    <b>T-Mobile G1</b>
+    </string>
+    <string name="b">What was Google main business motivation for supporting Android:
+                     <b>To level the playing field for mobile devices</b>
+                     </string>
+    <string name="c">What year was the Open Handset Alliance announced:
+                     <b>2007</b></string>
+    <string name="d">When did Google purchase Android:<b>2005</b></string>
+    <string name="e">Android does not make any assumptions about a devices screen size, resolution, or chipset.</string>
+    <string name="f">A device with Android installed is needed to develop apps for Android.</string>
+    <string name="footer_msg">11814743</string>
+    <string name="header_msg">Vishal Gupta</string>
+</resources>
