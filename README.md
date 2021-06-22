@@ -33,13 +33,13 @@ Features -> Rating bar, Progress bar, Custom Toast, Scroll View
 # Progress Bar
 <p align ="center">
 <img src="https://user-images.githubusercontent.com/62341045/122963588-09f3c500-d3a4-11eb-970c-b03288834446.jpg" width="300" height="500"/>
+  
+   <p align ="center">
+<img src="https://user-images.githubusercontent.com/62341045/122963408-dd3fad80-d3a3-11eb-9f36-247a7b9d965d.jpg" width="300" height="500"/>
 
 # Splash Screen With Score Card..
 <p align ="center">
 <img src="https://user-images.githubusercontent.com/62341045/122963648-1b3cd180-d3a4-11eb-8421-f77d221bfba3.jpg" width="300" height="500"/>
-  
-  <p align ="center">
-<img src="https://user-images.githubusercontent.com/62341045/122963408-dd3fad80-d3a3-11eb-9f36-247a7b9d965d.jpg" width="300" height="500"/>
 
 # Rating Bar..
 <p align ="center">
