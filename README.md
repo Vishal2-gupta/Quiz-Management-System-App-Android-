@@ -19,7 +19,8 @@ Features -> Rating bar, Progress bar, Custom Toast, Scroll View
  
  Scroll View with Registration Numbers..
  
-![1613985776775](https://user-images.githubusercontent.com/62341045/122963270-bda88500-d3a3-11eb-8073-1faaab88f7bc.jpg){height=60px}
+ <p align ="center">
+<img src="https://user-images.githubusercontent.com/62341045/122963270-bda88500-d3a3-11eb-8073-1faaab88f7bc.jpg" width="200" height="300"/>
 
 Quiz Question having next Button..
 
